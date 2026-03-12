@@ -1,16 +1,18 @@
 (function () {
-    "use strict";
+  "use strict";
 
-    function isActive(page, target) {
-        return page === target ? " active" : "";
-    }
+  function isActive(page, target) {
+    return page === target ? " active" : "";
+  }
 
-    function isAdmissionActive(page) {
-        return ["detail", "feature", "team", "testimonial"].includes(page) ? " active" : "";
-    }
+  function isAdmissionActive(page) {
+    return ["detail", "feature", "team", "testimonial"].includes(page)
+      ? " active"
+      : "";
+  }
 
-    function buildHeader(page) {
-        return `
+  function buildHeader(page) {
+    return `
     <div class="container-fluid bg-dark">
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
@@ -55,18 +57,18 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chuyên ngành đào tạo</a>
                         <div class="dropdown-menu m-0">
-                            <a href="" class="dropdown-item">Đào tạo từ xa</a>
-                            <a href="" class="dropdown-item">Vừa học vừa làm</a>
-                            <a href="" class="dropdown-item">Liên thông</a>
-                            <a href="" class="dropdown-item">Văn bằng 2</a>
-                            <a href="" class="dropdown-item">Đào tạo từ xa</a>
-                            <a href="" class="dropdown-item">Vừa học vừa làm</a>
-                            <a href="" class="dropdown-item">Liên thông</a>
-                            <a href="" class="dropdown-item">Văn bằng 2</a>
-                            <a href="" class="dropdown-item">Đào tạo từ xa</a>
-                            <a href="" class="dropdown-item">Vừa học vừa làm</a>
-                            <a href="" class="dropdown-item">Liên thông</a>
-                            <a href="" class="dropdown-item">Văn bằng 2</a>
+                            <a href="" class="dropdown-item">Công nghệ kỹ thuật xây dựng Cầu - Đường bộ</a>
+                            <a href="" class="dropdown-item">Xây dựng Cầu – Đường sắt</a>
+                            <a href="" class="dropdown-item">Công nghệ kỹ thuật Công trình Xây dựng Dân dụng và Công nghiệp</a>
+                            <a href="" class="dropdown-item">Thương mại điện tử</a>
+                            <a href="" class="dropdown-item">Kế toán doanh nghiệp</a>
+                            <a href="" class="dropdown-item">Logistics và Quản lý chuỗi cung ứng</a>
+                            <a href="" class="dropdown-item">Công nghệ kỹ thuật ô tô</a>
+                            <a href="" class="dropdown-item">Quản trị doanh nghiệp</a>
+                            <a href="" class="dropdown-item">Quản lý xây dựng</a>
+                            <a href="" class="dropdown-item">Thanh tra và Quản lý công trình giao thông</a>
+                            <a href="" class="dropdown-item">Công nghệ thông tin</a>
+                            <a href="" class="dropdown-item">Quản lý và Điều hành vận tải đường sắt</a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link${isActive(page, "contact")}">Liên hệ</a>
@@ -74,10 +76,10 @@
             </div>
         </nav>
     </div>`;
-    }
+  }
 
-    function buildHero(title) {
-        return `
+  function buildHero(title) {
+    return `
     <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
             <h1 class="text-white display-1">${title}</h1>
@@ -105,9 +107,9 @@
             </div>
         </div>
     </div>`;
-    }
+  }
 
-    var siteFooter = `
+  var siteFooter = `
     <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
         <div class="container mt-5 pt-5">
             <div class="row">
@@ -178,21 +180,21 @@
         </div>
     </div>`;
 
-    var page = document.body.dataset.page || "";
-    var pageTitle = document.body.dataset.pageTitle || "";
-    var siteHeader = document.getElementById("site-header");
-    var pageHero = document.getElementById("page-hero");
-    var siteFooterContainer = document.getElementById("site-footer");
+  var page = document.body.dataset.page || "";
+  var pageTitle = document.body.dataset.pageTitle || "";
+  var siteHeader = document.getElementById("site-header");
+  var pageHero = document.getElementById("page-hero");
+  var siteFooterContainer = document.getElementById("site-footer");
 
-    if (siteHeader) {
-        siteHeader.innerHTML = buildHeader(page);
-    }
+  if (siteHeader) {
+    siteHeader.innerHTML = buildHeader(page);
+  }
 
-    if (pageHero) {
-        pageHero.innerHTML = buildHero(pageTitle);
-    }
+  if (pageHero) {
+    pageHero.innerHTML = buildHero(pageTitle);
+  }
 
-    if (siteFooterContainer) {
-        siteFooterContainer.innerHTML = siteFooter;
-    }
+  if (siteFooterContainer) {
+    siteFooterContainer.innerHTML = siteFooter;
+  }
 })();
