@@ -49,7 +49,7 @@
                         <a href="#" class="nav-link dropdown-toggle${isAdmissionActive(page)}" data-toggle="dropdown">Tuyển sinh</a>
                         <div class="dropdown-menu m-0">
                             <a href="../status/tuyensinh-daihoctx.html" class="dropdown-item${isActive(page, "tuyensinh-daihoctx")}">Đào tạo từ xa</a>
-                            <a href="../common/feature.html" class="dropdown-item${isActive(page, "feature")}">Vừa học vừa làm</a>
+                            <a href="../status/tuyensinh-vhvl.html" class="dropdown-item${isActive(page, "tuyensinh-vhvl")}">Vừa học vừa làm</a>
                             <a href="../common/team.html" class="dropdown-item${isActive(page, "team")}">Liên thông</a>
                             <a href="../common/testimonial.html" class="dropdown-item${isActive(page, "testimonial")}">Văn bằng 2</a>
                         </div>
