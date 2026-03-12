@@ -17,7 +17,7 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>0972091290</small>
+                    <small><i class="fa fa-phone-alt mr-2"></i>0972 091 290</small>
                     <small class="px-3">|</small>
                     <small><i class="fa fa-envelope mr-2"></i>Lylt@utt.edu.vn</small>
                 </div>
@@ -42,16 +42,16 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link${isActive(page, "home")}">Trang chủ</a>
-                    <a href="about.html" class="nav-item nav-link${isActive(page, "about")}">Giới thiệu</a>
-                    <a href="course.html" class="nav-item nav-link${isActive(page, "course")}">Tin tức - sự kiện</a>
+                    <a href="../common/index.html" class="nav-item nav-link${isActive(page, "home")}">Trang chủ</a>
+                    <a href="../common/about.html" class="nav-item nav-link${isActive(page, "about")}">Giới thiệu</a>
+                    <a href="../common/new-event.html" class="nav-item nav-link${isActive(page, "new-event")}">Tin tức - sự kiện</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle${isAdmissionActive(page)}" data-toggle="dropdown">Tuyển sinh</a>
                         <div class="dropdown-menu m-0">
-                            <a href="detail.html" class="dropdown-item${isActive(page, "detail")}">Đào tạo từ xa</a>
-                            <a href="feature.html" class="dropdown-item${isActive(page, "feature")}">Vừa học vừa làm</a>
-                            <a href="team.html" class="dropdown-item${isActive(page, "team")}">Liên thông</a>
-                            <a href="testimonial.html" class="dropdown-item${isActive(page, "testimonial")}">Văn bằng 2</a>
+                            <a href="../status/tuyensinh-daihoctx.html" class="dropdown-item${isActive(page, "tuyensinh-daihoctx")}">Đào tạo từ xa</a>
+                            <a href="../common/feature.html" class="dropdown-item${isActive(page, "feature")}">Vừa học vừa làm</a>
+                            <a href="../common/team.html" class="dropdown-item${isActive(page, "team")}">Liên thông</a>
+                            <a href="../common/testimonial.html" class="dropdown-item${isActive(page, "testimonial")}">Văn bằng 2</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -71,7 +71,7 @@
                             <a href="" class="dropdown-item">Quản lý và Điều hành vận tải đường sắt</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link${isActive(page, "contact")}">Liên hệ</a>
+                    <a href="https://www.facebook.com/daihoclienthongvb2vhvl/" class="nav-item nav-link${isActive(page, "contact")}">Liên hệ</a>
                 </div>
             </div>
         </nav>
@@ -84,7 +84,7 @@
         <div class="container text-center py-5">
             <h1 class="text-white display-1">${title}</h1>
             <div class="d-inline-flex text-white mb-5">
-                <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Trang chủ</a></p>
+                <p class="m-0 text-uppercase"><a class="text-white" href="../common/index.html">Trang chủ</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
                 <p class="m-0 text-uppercase">${title}</p>
             </div>
@@ -115,11 +115,11 @@
             <div class="row">
                 <div class="col-md-6 mb-5">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Edukate</h1>
+                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Viện Đào tạo liên tục và Từ xa</h1>
                     </a>
-                    <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
+                    <!-- <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p> -->
                 </div>
-                <div class="col-md-6 mb-5">
+                <!--<div class="col-md-6 mb-5">
                     <h3 class="text-white mb-4">Newsletter</h3>
                     <div class="w-100">
                         <div class="input-group">
@@ -129,19 +129,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                    <h3 class="text-white mb-4">Địa chỉ</h3>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Trường Đại học Công nghệ Giao thông vận tải, số 54 Triều Khúc, phường Thanh Liệt, Hà Nội</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>0972 091 290</p>
+                    <p><i class="fa fa-envelope mr-2"></i>lylt@utt.edu.vn</p>
                     <div class="d-flex justify-content-start mt-4">
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
-                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                        <a class="text-white mr-4" href="https://www.facebook.com/daihoclienthongvb2vhvl/"><i class="fab fa-2x fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
@@ -166,19 +163,19 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <p class="m-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
-                </div>
-            </div>
-        </div>
     </div>`;
+  // <div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+  //     <div class="container">
+  //         <div class="row">
+  //             <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+  //                 <p class="m-0">Copyright &copy; <a class="text-white" href="#">Viện Đào tạo liên tục và Từ xa</a>. All Rights Reserved.</p>
+  //             </div>
+  //             <div class="col-md-6 text-center text-md-right">
+  //                 <p class="m-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+  //             </div>
+  //         </div>
+  //     </div>
+  // </div>;
 
   var page = document.body.dataset.page || "";
   var pageTitle = document.body.dataset.pageTitle || "";
