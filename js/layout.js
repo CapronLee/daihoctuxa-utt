@@ -65,9 +65,9 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chuyên ngành đào tạo</a>
                         <div class="dropdown-menu m-0">
-                            <a href="" class="dropdown-item">Công nghệ kỹ thuật xây dựng Cầu - Đường bộ</a>
-                            <a href="" class="dropdown-item">Xây dựng Cầu – Đường sắt</a>
-                            <a href="" class="dropdown-item">Công nghệ kỹ thuật Công trình Xây dựng Dân dụng và Công nghiệp</a>
+                            <a href="../status/ctdt-dtcd.html" class="dropdown-item${isActive(page, "ctdt-dtcd")}">Công nghệ kỹ thuật xây dựng Cầu - Đường bộ</a>
+                            <a href="../status/ctdt-dtcs.html" class="dropdown-item${isActive(page, "ctdt-dtcs")}">Công nghệ kỹ thuật xây dựng Cầu – Đường sắt</a>
+                            <a href="../status/ctdt-dtdd.html" class="dropdown-item${isActive(page, "ctdt-dtdd")}">Công nghệ kỹ thuật Công trình Xây dựng Dân dụng và Công nghiệp</a>
                             <a href="" class="dropdown-item">Thương mại điện tử</a>
                             <a href="" class="dropdown-item">Kế toán doanh nghiệp</a>
                             <a href="" class="dropdown-item">Logistics và Quản lý chuỗi cung ứng</a>
