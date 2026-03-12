@@ -5,9 +5,9 @@ $secondary: #F14D5D;
 $light: #ECF4FF;
 $dark: #120F2D;
 
-$font-family-base: 'Open Sans', sans-serif;
+$font-family-base: sans-serif;
 
-$headings-font-family: 'Jost', sans-serif;
+$headings-font-family: sans-serif;
 
 $body-bg: #FFFFFF;
 
@@ -42,7 +42,7 @@ h6,
 }
 
 .btn {
-    font-family: 'Jost', sans-serif;
+    font-family: sans-serif;
 }
 
 .btn-square {
@@ -86,7 +86,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Jost', sans-serif;
+    font-family: sans-serif;
     padding: 30px 15px;
     font-size: 18px;
     font-weight: 500;

@@ -50,36 +50,77 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="../common/index.html" class="nav-item nav-link${isActive(page, "home")}">Trang chủ</a>
-                    <a href="../common/about.html" class="nav-item nav-link${isActive(page, "about")}">Giới thiệu</a>
-                    <a href="../common/new-event.html" class="nav-item nav-link${isActive(page, "new-event")}">Tin tức - sự kiện</a>
+                    <a href="../common/index.html" class="nav-item nav-link${isActive(
+                      page,
+                      "home"
+                    )}">Trang chủ</a>
+                    <a href="../common/about.html" class="nav-item nav-link${isActive(
+                      page,
+                      "about"
+                    )}">Giới thiệu</a>
+                    <a href="../common/new-event.html" class="nav-item nav-link${isActive(
+                      page,
+                      "new-event"
+                    )}">Tin tức - sự kiện</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle${isAdmissionActive(page)}" data-toggle="dropdown">Tuyển sinh</a>
+                        <a href="#" class="nav-link dropdown-toggle${isAdmissionActive(
+                          page
+                        )}" data-toggle="dropdown">Tuyển sinh</a>
                         <div class="dropdown-menu m-0">
-                            <a href="../status/tuyensinh-daihoctx.html" class="dropdown-item${isActive(page, "tuyensinh-daihoctx")}">Đào tạo từ xa</a>
-                            <a href="../status/tuyensinh-vhvl.html" class="dropdown-item${isActive(page, "tuyensinh-vhvl")}">Vừa học vừa làm</a>
-                            <a href="../status/tuyensinh-dhlt.html" class="dropdown-item${isActive(page, "tuyensinh-dhlt")}">Liên thông</a>
-                            <a href="" class="dropdown-item${isActive(page, "testimonial")}">Văn bằng 2</a>
+                            <a href="../status/tuyensinh-daihoctx.html" class="dropdown-item${isActive(
+                              page,
+                              "tuyensinh-daihoctx"
+                            )}">Đào tạo từ xa</a>
+                            <a href="../status/tuyensinh-vhvl.html" class="dropdown-item${isActive(
+                              page,
+                              "tuyensinh-vhvl"
+                            )}">Vừa học vừa làm</a>
+                            <a href="../status/tuyensinh-dhlt.html" class="dropdown-item${isActive(
+                              page,
+                              "tuyensinh-dhlt"
+                            )}">Liên thông</a>
+                            <a href="" class="dropdown-item${isActive(
+                              page,
+                              "testimonial"
+                            )}">Văn bằng 2</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chuyên ngành đào tạo</a>
                         <div class="dropdown-menu m-0">
-                            <a href="../status/ctdt-dtcd.html" class="dropdown-item${isActive(page, "ctdt-dtcd")}">Công nghệ kỹ thuật xây dựng Cầu - Đường bộ</a>
-                            <a href="../status/ctdt-dtcs.html" class="dropdown-item${isActive(page, "ctdt-dtcs")}">Công nghệ kỹ thuật xây dựng Cầu – Đường sắt</a>
-                            <a href="../status/ctdt-dtdd.html" class="dropdown-item${isActive(page, "ctdt-dtdd")}">Công nghệ kỹ thuật Công trình Xây dựng Dân dụng và Công nghiệp</a>
-                            <a href="" class="dropdown-item">Thương mại điện tử</a>
-                            <a href="" class="dropdown-item">Kế toán doanh nghiệp</a>
-                            <a href="" class="dropdown-item">Logistics và Quản lý chuỗi cung ứng</a>
-                            <a href="" class="dropdown-item">Công nghệ kỹ thuật ô tô</a>
-                            <a href="" class="dropdown-item">Quản trị doanh nghiệp</a>
-                            <a href="" class="dropdown-item">Quản lý xây dựng</a>
-                            <a href="" class="dropdown-item">Thanh tra và Quản lý công trình giao thông</a>
-                            <a href="" class="dropdown-item">Công nghệ thông tin</a>
-                            <a href="" class="dropdown-item">Quản lý và Điều hành vận tải đường sắt</a>
+                            <a href="../status/ctdt-dtcd.html" class="dropdown-item${isActive(
+                              page,
+                              "ctdt-dtcd"
+                            )}">Công nghệ kỹ thuật xây dựng Cầu - Đường bộ</a>
+                            <a href="../status/ctdt-dtcs.html" class="dropdown-item${isActive(
+                              page,
+                              "ctdt-dtcs"
+                            )}">Công nghệ kỹ thuật xây dựng Cầu – Đường sắt</a>
+                            <a href="../status/ctdt-dtdd.html" class="dropdown-item${isActive(
+                              page,
+                              "ctdt-dtdd"
+                            )}">Công nghệ kỹ thuật Công trình Xây dựng Dân dụng và Công nghiệp</a>
+                            <a href="../status/ctdt-dtec.html" class="dropdown-item${isActive(page, "ctdt-dtec")}">Thương mại điện tử</a>
+                            <a href="../status/ctdt-dtkt.html" class="dropdown-item${isActive(
+                              page,
+                              "ctdt-dtkt"
+                            )}">Kế toán doanh nghiệp</a>
+                            <a href="../status/ctdt-dtlg.html" class="dropdown-item${isActive(
+                              page,
+                              "ctdt-dtlg"
+                            )}">Logistics và Quản lý chuỗi cung ứng</a>
+                            <a href="../status/ctdt-dtot.html" class="dropdown-item${isActive(page, "ctdt-dtot")}">Công nghệ kỹ thuật ô tô</a>
+                            <a href="../status/ctdt-dtqt.html" class="dropdown-item${isActive(page, "ctdt-dtqt")}">Quản trị doanh nghiệp</a>
+                            <a href="../status/ctdt-dtqx.html" class="dropdown-item${isActive(page, "ctdt-dtqx")}">Quản lý xây dựng</a>
+                            <a href="../status/ctdt-dttq.html" class="dropdown-item${isActive(page, "ctdt-dttq")}">Thanh tra và Quản lý công trình giao thông</a>
+                            <a href="../status/ctdt-dttt.html" class="dropdown-item${isActive(page, "ctdt-dttt")}">Công nghệ thông tin</a>
+                            <a href="../status/ctdt-dtvs.html" class="dropdown-item${isActive(page, "ctdt-dtvs")}">Quản lý và Điều hành vận tải đường sắt</a>
                         </div>
                     </div>
-                    <a href="https://www.facebook.com/daihoclienthongvb2vhvl/" class="nav-item nav-link${isActive(page, "contact")}">Liên hệ</a>
+                    <a href="https://www.facebook.com/daihoclienthongvb2vhvl/" class="nav-item nav-link${isActive(
+                      page,
+                      "contact"
+                    )}">Liên hệ</a>
                 </div>
             </div>
         </nav>
