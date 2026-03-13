@@ -79,9 +79,9 @@
                               page,
                               "tuyensinh-dhlt",
                             )}">Liên thông</a>
-                            <a href="" class="dropdown-item${isActive(
+                            <a href="../status/tuyensinh-vb2.html" class="dropdown-item${isActive(
                               page,
-                              "testimonial",
+                              "tuyensinh-vb2",
                             )}">Văn bằng 2</a>
                         </div>
                     </div>
