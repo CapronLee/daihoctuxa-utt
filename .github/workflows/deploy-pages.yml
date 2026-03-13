@@ -32,7 +32,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p dist
-          cp -R assets css img js lib pages LICENSE.txt README.md index.html dist/
+          cp -R assets css img js lib pages LICENSE.txt README.md index.html CNAME dist/
           touch dist/.nojekyll
 
       - name: Upload artifact
