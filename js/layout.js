@@ -43,7 +43,7 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <h2 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Viện Đào tạo liên tục và Từ xa</h2>
+                <h2 class="m-0 text-uppercase text-primary"><img class="site-logo-icon mr-3" src="../../img/main/logo-utt-border.png" alt="UTT">Viện Đào tạo liên tục và Từ xa</h2>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -52,36 +52,36 @@
                 <div class="navbar-nav mx-auto py-0">
                     <a href="../common/index.html" class="nav-item nav-link${isActive(
                       page,
-                      "home"
+                      "home",
                     )}">Trang chủ</a>
                     <a href="../common/about.html" class="nav-item nav-link${isActive(
                       page,
-                      "about"
+                      "about",
                     )}">Giới thiệu</a>
                     <a href="../common/new-event.html" class="nav-item nav-link${isActive(
                       page,
-                      "new-event"
+                      "new-event",
                     )}">Tin tức - sự kiện</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle${isAdmissionActive(
-                          page
+                          page,
                         )}" data-toggle="dropdown">Tuyển sinh</a>
                         <div class="dropdown-menu m-0">
                             <a href="../status/tuyensinh-daihoctx.html" class="dropdown-item${isActive(
                               page,
-                              "tuyensinh-daihoctx"
+                              "tuyensinh-daihoctx",
                             )}">Đào tạo từ xa</a>
                             <a href="../status/tuyensinh-vhvl.html" class="dropdown-item${isActive(
                               page,
-                              "tuyensinh-vhvl"
+                              "tuyensinh-vhvl",
                             )}">Vừa học vừa làm</a>
                             <a href="../status/tuyensinh-dhlt.html" class="dropdown-item${isActive(
                               page,
-                              "tuyensinh-dhlt"
+                              "tuyensinh-dhlt",
                             )}">Liên thông</a>
                             <a href="" class="dropdown-item${isActive(
                               page,
-                              "testimonial"
+                              "testimonial",
                             )}">Văn bằng 2</a>
                         </div>
                     </div>
@@ -90,24 +90,24 @@
                         <div class="dropdown-menu m-0">
                             <a href="../status/ctdt-dtcd.html" class="dropdown-item${isActive(
                               page,
-                              "ctdt-dtcd"
+                              "ctdt-dtcd",
                             )}">Công nghệ kỹ thuật xây dựng Cầu - Đường bộ</a>
                             <a href="../status/ctdt-dtcs.html" class="dropdown-item${isActive(
                               page,
-                              "ctdt-dtcs"
+                              "ctdt-dtcs",
                             )}">Công nghệ kỹ thuật xây dựng Cầu – Đường sắt</a>
                             <a href="../status/ctdt-dtdd.html" class="dropdown-item${isActive(
                               page,
-                              "ctdt-dtdd"
+                              "ctdt-dtdd",
                             )}">Công nghệ kỹ thuật Công trình Xây dựng Dân dụng và Công nghiệp</a>
                             <a href="../status/ctdt-dtec.html" class="dropdown-item${isActive(page, "ctdt-dtec")}">Thương mại điện tử</a>
                             <a href="../status/ctdt-dtkt.html" class="dropdown-item${isActive(
                               page,
-                              "ctdt-dtkt"
+                              "ctdt-dtkt",
                             )}">Kế toán doanh nghiệp</a>
                             <a href="../status/ctdt-dtlg.html" class="dropdown-item${isActive(
                               page,
-                              "ctdt-dtlg"
+                              "ctdt-dtlg",
                             )}">Logistics và Quản lý chuỗi cung ứng</a>
                             <a href="../status/ctdt-dtot.html" class="dropdown-item${isActive(page, "ctdt-dtot")}">Công nghệ kỹ thuật ô tô</a>
                             <a href="../status/ctdt-dtqt.html" class="dropdown-item${isActive(page, "ctdt-dtqt")}">Quản trị doanh nghiệp</a>
@@ -119,7 +119,7 @@
                     </div>
                     <a href="https://www.facebook.com/daihoclienthongvb2vhvl/" class="nav-item nav-link${isActive(
                       page,
-                      "contact"
+                      "contact",
                     )}">Liên hệ</a>
                 </div>
             </div>
@@ -164,7 +164,7 @@
             <div class="row">
                 <div class="col-md-6 mb-5">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Viện Đào tạo liên tục và Từ xa</h1>
+                        <h1 class="mt-n2 text-uppercase text-white"><img class="site-logo-icon mr-3" src="../../img/main/logo-utt-border.png" alt="UTT">Viện Đào tạo liên tục và Từ xa</h1>
                     </a>
                     <!-- <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p> -->
                 </div>

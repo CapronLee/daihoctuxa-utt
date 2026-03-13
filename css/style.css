@@ -9768,6 +9768,21 @@ h6,
   flex-shrink: 0;
 }
 
+.site-logo-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.feature-logo-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
